@@ -1,0 +1,45 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@import "tailwindcss";
+
+@theme {
+  --color-dig-base: #F5F7FA;
+  --color-dig-surface: #FFFFFF;
+  --color-dig-primary: #A0D8EF; 
+  --color-dig-primary-shadow: #7DBDE0;
+  --color-dig-accent: #FFE28A; 
+  --color-dig-accent-shadow: #EBC14D;
+  --color-dig-text-main: #1D1D1F;
+  --color-dig-text-muted: #86868B;
+  --color-dig-border: #EAEFF5;
+  --color-dig-fatigue-high: #FF6B6B;
+  --color-dig-fatigue-med: #FFB02E;
+  --color-dig-fatigue-low: #5EE08F;
+
+  --font-sans: "Pretendard", ui-sans-serif, system-ui, sans-serif;
+  
+  --radius-xl: 1.25rem;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 2rem;
+}
+
+body {
+  background-color: var(--color-dig-base);
+  color: var(--color-dig-text-main);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hide scrollbar for clean UI */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

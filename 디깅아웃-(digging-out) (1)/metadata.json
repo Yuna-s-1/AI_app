@@ -1,0 +1,10 @@
+{
+  "name": "디깅아웃 (Digging Out)",
+  "description": "디지털 피로도를 낮추고 온전한 몰입을 돕는 안티-디지털 웰니스 서비스",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
